@@ -1,0 +1,3 @@
+we first open the file, because fgetcsv() doesnt open the file, we have to open it before that. 
+Then we loop through the each line of a file and each line is stored in an array called $data[].
+ Only then we loop through that array and display each line how we want?
