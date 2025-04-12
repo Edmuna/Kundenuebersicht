@@ -20,6 +20,9 @@
     </nav>
 
     <?php
+
+require_once __DIR__ . '/includes/db.php';
+
          $doc = fopen("p2b.kunden.csv", "r");
          while(($row = fgetcsv($doc, 1000, ";")) !== false) {
              $data [] = $row;
